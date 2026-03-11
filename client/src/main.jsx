@@ -178,7 +178,7 @@ import NodeLesson12 from './components/NodeLesson12.jsx';
 
 // OOP Lessons
 import OOPLesson from './components/OOPLesson.jsx';
-import OOPLesson1 from './components/OOpLesson1.jsx';
+import OOPLesson1 from './components/OOPLesson1.jsx';
 import OOPLesson2 from './components/OOPLesson2.jsx';
 import OOPLesson3 from './components/OOPLesson3.jsx';
 import OOPLesson4 from './components/OOPLesson4.jsx';
