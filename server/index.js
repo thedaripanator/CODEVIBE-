@@ -24,8 +24,14 @@ backend.use(
 );
 
 // 👇 important line for preflight
-backend.options("*", cors());
-
+backend.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://codevibeforyou.netlify.app"
+  ],
+  methods: ["GET","POST","PUT","DELETE","PATCH","OPTIONS"],
+  credentials: true
+}));
 backend.use(routes);
 
 mongoose
