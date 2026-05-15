@@ -91,6 +91,9 @@ const SignUp = () => {
               onChange={(e) => setPassword(e.target.value)}
               required
             />
+            <p style={{ fontSize: "0.8rem", color: "var(--text-secondary)", marginTop: "-10px", marginBottom: "15px", textAlign: "left" }}>
+              *Password must be at least 6 characters long
+            </p>
 
             <button type="submit">SUBMIT</button>
 

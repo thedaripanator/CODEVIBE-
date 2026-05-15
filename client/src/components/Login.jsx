@@ -14,8 +14,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post(
-        "https://codevibe-3.onrender.com/api/auth/login",
+     const response = await axios.post("https://codevibe-3.onrender.com/api/auth/login",
         {
           Email: email,
           password,

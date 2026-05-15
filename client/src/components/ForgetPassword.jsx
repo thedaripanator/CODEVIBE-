@@ -10,7 +10,7 @@ const ForgotPassword = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5002/api/auth/forgot-password", {
+      const res = await axios.post("https://codevibe-3.onrender.com/api/auth/forgot-password", {
         Email: email,
       });
       setResponseMsg(res.data.message);
@@ -23,11 +23,15 @@ const ForgotPassword = () => {
     <section className="login-section">
      <div className="login-container">
        <div className="login-image">
-        <img src={forgotPic} alt="Forgot image" srcset="" />
+        <img src={forgotPic} alt="Forgot image" />
       </div>
       <div className="login-card">
           <form className="login-form" onSubmit={handleSubmit}>
             <h1>Forgot Your Password</h1>
+            
+            <div style={{ backgroundColor: "rgba(255, 77, 109, 0.1)", border: "1px solid var(--primary-red)", padding: "10px", borderRadius: "8px", marginBottom: "15px", fontSize: "0.85rem", color: "white" }}>
+              <strong style={{color: "var(--primary-red)"}}>Developer Note:</strong> Emails are sent using Resend Test Mode and will only be delivered to the verified developer email address.
+            </div>
 
             <label>EMAIL:</label>
             <input
@@ -37,11 +41,11 @@ const ForgotPassword = () => {
               required
             />
 
-            <button type="submit">Send OTP</button>
+            <button type="submit">Send Reset Link</button>
 
-            {responseMsg && <p style={{ color: "white" }}>{responseMsg}</p>}
+            {responseMsg && <p style={{ color: "white", marginTop: "1rem", fontSize: "0.9rem" }}>{responseMsg}</p>}
 
-            <p>
+            <p style={{marginTop: "1.5rem"}}>
               Back to <Link to="/login">Login</Link>
             </p>
           </form>
