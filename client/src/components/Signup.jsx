@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
+import Spinner from './common/Spinner';
 
 const SignUp = () => {
   const [username, setUsername] = useState('');
@@ -9,10 +10,12 @@ const SignUp = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [responseMsg, setResponseMsg] = useState('');
+  const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     try {
       const response = await axios.post("https://codevibe-3.onrender.com/api/auth/register", {
@@ -34,6 +37,8 @@ const SignUp = () => {
     } catch (error) {
       console.error("❌ Signup error", error.response?.data || error.message);
       setResponseMsg(error.response?.data?.message || "Something went wrong");
+    } finally {
+      setLoading(false);
     }
   };
 

@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
+import Spinner from "./common/Spinner";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [responseMsg, setResponseMsg] = useState("");
+  const [loading, setLoading] = useState(false); // State to manage loading spinner and button disabled state
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
