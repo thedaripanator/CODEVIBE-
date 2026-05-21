@@ -26,16 +26,25 @@
 .dynamic-progress-sidebar--collapsed {
   width: 52px;
   min-height: 100vh;
-  padding: 8px;
+  padding: 16px 8px;
+  display: flex;
+  align-items: center;
+  
 }
 
 .dynamic-progress-sidebar--collapsed .dynamic-progress-sidebar__toggle {
-  width: 36px;
+  width: 100%;
+  padding: 2px;
 }
 
 .dynamic-progress-sidebar__toggle {
-  width: 46px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   color: #ffffff;
   background: linear-gradient(135deg, #ff4d6d, #ff7aa2);
   border: 1px solid rgba(255, 255, 255, 0.22);
@@ -204,25 +213,4 @@ body.dynamic-progress-sidebar-visible .lesson {
 
 body.dynamic-progress-sidebar-visible.dynamic-progress-sidebar-collapsed .lesson {
   margin-left: 78px;
-}
-
-@media (max-width: 900px) {
-  .dynamic-progress-sidebar {
-    top: auto;
-    right: 12px;
-    bottom: 12px;
-    left: 12px;
-    width: auto;
-    max-height: 70vh;
-  }
-
-  .dynamic-progress-sidebar--collapsed {
-    right: auto;
-    width: 52px;
-  }
-
-  body.dynamic-progress-sidebar-visible .lesson,
-  body.dynamic-progress-sidebar-visible.dynamic-progress-sidebar-collapsed .lesson {
-    margin-left: 0;
-  }
 }

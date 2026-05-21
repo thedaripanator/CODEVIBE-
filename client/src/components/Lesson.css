@@ -1,0 +1,245 @@
+/* =========================
+   PAGE
+========================= */
+
+.lesson {
+  padding: 3rem 4rem;
+  min-height: 100vh;
+}
+
+/* =========================
+   CONTENT WRAPPER
+========================= */
+
+.lesson-content {
+  width: 100%;
+  max-width: fit-content;
+  margin: 0 auto;
+  padding:0 24px ;
+}
+
+/* =========================
+   MAIN TITLE
+========================= */
+
+.lesson-title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #ff5f8f;
+  margin-bottom: 3rem;
+  text-shadow:
+    0 0 10px rgba(255,95,143,0.5);
+}
+
+/* =========================
+   SECTION CARD
+========================= */
+
+.lesson-section {
+  background: rgba(255,255,255,0.03);
+  border: 2px solid rgba(255,95,143,0.2);
+  border-radius: 18px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  backdrop-filter: blur(10px);
+}
+
+/* =========================
+   SECTION HEADING
+========================= */
+
+.section-title {
+  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  color: #ff6b93;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* =========================
+   TEXT
+========================= */
+
+.lesson-text {
+  font-size: clamp(1rem, 2vw, 1.1rem);
+  line-height: 1.9;
+  color: #d7d7d7;
+  margin-bottom: 1rem;
+}
+
+/* =========================
+   LIST
+========================= */
+
+.lesson-list {
+  padding-left: 1.5rem;
+  line-height: 2;
+  color: #d7d7d7;
+  font-size: clamp(1rem, 2vw, 1.05rem);
+}
+
+.lesson-list li {
+  margin-bottom: 0.8rem;
+}
+
+/* =========================
+   HIGHLIGHT BOX
+========================= */
+
+.highlight-box {
+  background: rgba(255,95,143,0.08);
+  border-left: 4px solid #ff5f8f;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+
+.highlight-box p {
+  line-height: 1.8;
+}
+
+/* =========================
+   CODE BLOCK
+========================= */
+
+.code-block {
+  background: #111827;
+  color: #f8f8f2;
+  padding: 1.5rem;
+  border-radius: 14px;
+  overflow-x: auto;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  border: 1px solid rgba(255,255,255,0.1);
+  white-space: pre-wrap;
+}
+
+/* =========================
+   COMPILER SECTION
+========================= */
+
+.compiler-wrapper {
+  margin-top: 3rem;
+}
+
+/* =========================
+   NEXT BUTTON
+========================= */
+
+.next-lesson-btn {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-top: 2rem;
+
+  padding: 1rem 1.5rem;
+
+  border-radius: 12px;
+
+  background: #ff5f8f;
+
+  color: white;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  transition: 0.3s ease;
+}
+
+.next-lesson-btn:hover {
+  transform: translateY(-2px);
+
+  background: #ff709b;
+}
+
+/* =========================
+   LARGE TABLET
+========================= */
+
+@media (max-width: 1024px) {
+
+  .lesson {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .lesson-section {
+    padding: 1.8rem;
+  }
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 768px) {
+
+  .lesson {
+    padding: 2rem 1rem;
+  }
+
+  .lesson-content {
+    width: 100%;
+  }
+
+  .lesson-title {
+    margin-bottom: 2rem;
+  }
+
+  .lesson-section {
+    padding: 1.5rem;
+
+    border-radius: 14px;
+  }
+
+  .section-title {
+    margin-bottom: 1rem;
+  }
+
+  .code-block {
+    font-size: 0.85rem;
+
+    padding: 1rem;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+  .lesson {
+    padding: 1.5rem 0.8rem;
+  }
+
+  .lesson-content{
+    padding-left: 56px !important;
+  }
+  .lesson-section {
+    padding-left: 1.2rem;
+
+    margin-bottom: 1.5rem;
+  }
+
+  .lesson-text {
+    line-height: 1.8;
+  }
+
+  .lesson-list {
+    padding-left: 1.2rem;
+  }
+
+  .highlight-box {
+    padding: 0.9rem;
+  }
+
+  .next-lesson-btn {
+    width: 100%;
+  }
+}
