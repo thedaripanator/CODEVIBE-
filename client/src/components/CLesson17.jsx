@@ -9,6 +9,20 @@ const CLesson17 = () => {
 
   const handleSuccess = () => setIsCorrect(true);
 
+  // 🐦 Twitter Share Function
+  const shareOnTwitter = () => {
+    const text = "I just completed the C Programming course on CodeVibe! 🚀\n\nCheck it out: https://codevibeforyou.netlify.app\n\n#CodeVibe #GSSoC26 #100DaysOfCode";
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
+    window.open(twitterUrl, '_blank');
+  };
+
+  // 💼 LinkedIn Share Function
+  const shareOnLinkedIn = () => {
+    const url = "https://codevibeforyou.netlify.app";
+    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`;
+    window.open(linkedInUrl, '_blank');
+  };
+
   return (
     <div className="lesson">
       <h1 className="lesson-title">Mini Project 2: Student Management System</h1>
@@ -54,8 +68,31 @@ int main() {
         onSuccess={handleSuccess}
       />
 
+      {/* 🎉 Lesson Completion Section with Social Share Buttons */}
       {isCorrect && (
-        <p style={{ color: 'green', fontWeight: 'bold' }}>🎉 You completed all C Lessons!</p>
+        <div className="completion-section" style={{ marginTop: '20px', padding: '15px', border: '1px solid #22c55e', borderRadius: '8px', backgroundColor: '#f0fdf4' }}>
+          <p style={{ color: 'green', fontWeight: 'bold', fontSize: '18px', marginBottom: '15px' }}>
+            🎉 You completed all C Lessons!
+          </p>
+          
+          <div className="share-buttons-container" style={{ display: 'flex', gap: '10px' }}>
+            {/* Twitter Button */}
+            <button 
+              onClick={shareOnTwitter} 
+              style={{ padding: '10px 15px', backgroundColor: '#1DA1F2', color: 'white', border: 'none', borderRadius: '5px', fontWeight: 'bold', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '5px' }}
+            >
+              Share on Twitter 🐦
+            </button>
+
+            {/* LinkedIn Button */}
+            <button 
+              onClick={shareOnLinkedIn} 
+              style={{ padding: '10px 15px', backgroundColor: '#0077B5', color: 'white', border: 'none', borderRadius: '5px', fontWeight: 'bold', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '5px' }}
+            >
+              Share on LinkedIn 💼
+            </button>
+          </div>
+        </div>
       )}
     </div>
   );
