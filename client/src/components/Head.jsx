@@ -171,20 +171,22 @@ const clearSearch = () => {
           role="search"
           aria-label="Search courses"
         >
-          {/*<FaSearch className="search-icon-left" aria-hidden="true" />*/}
-          <input
-            ref={inputRef}
-            type="text"
-            className="search-input"
-            placeholder="Search courses — HTML, DSA, React..."
-            value={query}
-            onChange={(e) => handleSearch(e.target.value)}
-            onFocus={() => setFocused(true)}
-            aria-autocomplete="list"
-            aria-controls="search-suggestions"
-            aria-expanded={suggestions.length > 0}
-            autoComplete="off"
-          />
+         {/*<FaSearch className="search-icon-left" aria-hidden="true" />*/}
+<input
+  ref={inputRef}
+  type="text"
+  id="search-courses"
+  name="searchCourses"
+  className="search-input"
+  placeholder="Search courses — HTML, DSA, React..."
+  value={query}
+  onChange={(e) => handleSearch(e.target.value)}
+  onFocus={() => setFocused(true)}
+  aria-autocomplete="list"
+  aria-controls="search-suggestions"
+  aria-expanded={suggestions.length > 0}
+  autoComplete="off"
+/>
           {query && (
             <button
               type="button"
