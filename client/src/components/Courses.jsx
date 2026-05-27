@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { useSearch } from "../context/SearchContext.jsx";
 import RoadmapGenerator from "./RoadmapGenerator";
 import FAQ from "./FAQ";
 import Testimonials from "./testimonials";
@@ -19,7 +20,7 @@ import expressLogo from '../assets/expressLogo.png';
 import mongoLogo from '../assets/mongoLogo.png';
 
 const Courses = () => {
-  const [search, setSearch] = useState('');
+  const { query, setQuery } = useSearch();
   const [user, setUser] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState('All');
 
@@ -126,7 +127,7 @@ const Courses = () => {
   const categories = ['All', ...new Set(courses.map(course => course.category))];
 
   const filteredCourses = courses.filter((course) => {
-    const matchesSearch = course.title.toLowerCase().includes(search.toLowerCase());
+    const matchesSearch = course.title.toLowerCase().includes(query.toLowerCase());
     const matchesCategory = selectedCategory === 'All' || course.category === selectedCategory;
     return matchesSearch && matchesCategory;
   });
@@ -429,7 +430,7 @@ const Courses = () => {
   buttonText="Show All Courses"
   onButtonClick={() => {
     setSelectedCategory("All");
-    setSearch("");
+    setQuery("");
   }}
 />
       )}

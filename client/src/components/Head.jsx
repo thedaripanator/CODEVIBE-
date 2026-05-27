@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from "../AuthProvider.jsx";
+import { useSearch } from "../context/SearchContext.jsx";
 import { FaSignInAlt, FaSignOutAlt, FaUserPlus, FaTachometerAlt, FaGamepad, FaSearch, FaTimes } from "react-icons/fa";
 import logo from "../assets/websitelogo.png";
 
@@ -18,7 +19,7 @@ const COURSES = [
 ];
 
 const Head = () => {
-  const [query, setQuery] = useState("");
+  const { query, setQuery } = useSearch();
   const [suggestions, setSuggestions] = useState([]);
   const [focused, setFocused] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
