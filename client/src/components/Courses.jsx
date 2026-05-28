@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useSearch } from "../context/SearchContext.jsx";
 import RoadmapGenerator from "./RoadmapGenerator";
 import FAQ from "./FAQ";
@@ -23,6 +23,7 @@ const Courses = () => {
   const { query, setQuery } = useSearch();
   const [user, setUser] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const navigate = useNavigate();
 
   useEffect(() => {
     const loggedInUser = localStorage.getItem('user');
@@ -257,6 +258,12 @@ const Courses = () => {
               to={course.link}
               className="course-box"
               key={index}
+              onClick={(e) => {
+                if (!user) {
+                  e.preventDefault();
+                  navigate('/login', { state: { from: { pathname: course.link } } });
+                }
+              }}
               style={{
                 textDecoration: 'none',
                 display: 'flex',
