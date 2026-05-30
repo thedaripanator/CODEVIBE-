@@ -224,8 +224,8 @@ const DSALesson = () => {
 
         .header-icon {
           font-size: 3.5rem;
-            color: #22d3ee;
-  filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.5));
+          color: #22d3ee;
+          filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.9));
           animation: float 3s ease-in-out infinite;
         }
 
@@ -271,7 +271,7 @@ const DSALesson = () => {
         }
 
         .stat-icon {
-          color: #00cec9;
+          color: #22d3ee;
         }
 
         .trophy-icon {
@@ -281,8 +281,15 @@ const DSALesson = () => {
 
         .progress-percent {
           font-weight: bold;
-          color: #00cec9;
+          color: #22d3ee;
         }
+
+        .start-btn,
+        .start-btn *,
+        .course-card:hover .start-btn,
+        .course-card:hover .start-btn * {
+          color: #08173d;
+          }
 
         .progress-bar {
           background: rgba(255, 255, 255, 0.1);
@@ -432,6 +439,7 @@ const DSALesson = () => {
           gap: 8px;
           padding: 10px 20px;
           background: linear-gradient(90deg,#22d3ee,#06b6d4);
+          box-shadow: 0 0 15px rgba(76, 201, 240, 0.4);
           border: none;
           border-radius: 8px;
           color: #1a1a2e;
@@ -443,8 +451,8 @@ const DSALesson = () => {
         }
 
         .course-card:hover .start-btn {
-          background: linear-gradient(90deg,#00b894,#009474);
-          gap: 12px;
+          background: linear-gradient(90deg,#4CC9F0,#60A5FA);
+          box-shadow: 0 0 25px rgba(76,201,240,.6);
         }
 
         .btn-arrow {

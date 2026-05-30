@@ -240,8 +240,8 @@ const JsLesson = () => {
 
         .header-icon {
           font-size: 3.5rem;
-         color: #facc15;
-  filter: drop-shadow(0 0 12px rgba(250, 204, 21, 0.6));
+          color: #FFD166;
+          filter: drop-shadow(0 0 10px rgba(255,200,87,.9));
           animation: float 3s ease-in-out infinite;
         }
 
@@ -287,7 +287,7 @@ const JsLesson = () => {
         }
 
         .stat-icon {
-          color: #f7df1e;
+          color: #FFD166;
         }
 
         .trophy-icon {
@@ -297,7 +297,7 @@ const JsLesson = () => {
 
         .progress-percent {
           font-weight: bold;
-          color: #f7df1e;
+          color: #FFD166;
         }
 
         .progress-bar {
@@ -308,7 +308,7 @@ const JsLesson = () => {
         }
 
         .progress-fill {
-          background: linear-gradient(90deg, #fde68a, #facc15);
+          background: linear-gradient(90deg, #FFD166, #facc15);
           height: 100%;
           border-radius: 10px;
           transition: width 0.5s ease;
@@ -469,9 +469,10 @@ const JsLesson = () => {
           align-items: center;
           gap: 8px;
           padding: 10px 20px;
-          background: linear-gradient(90deg, #fde68a, #facc15);
-          color: #1a1a1a;
-          box-shadow: 0 0 15px rgba(250, 204, 21, 0.35);
+          background: #FFD166;
+          color: #000;
+          font-weight: 700;
+          box-shadow: 0 0 15px rgba(255, 209, 102, 0.4);
           border: none;
           border-radius: 8px;
           font-weight: bold;
@@ -487,10 +488,19 @@ const JsLesson = () => {
 
 
         .course-card:hover .start-btn {
-          background: #f39c12;
-          gap: 12px;
+        background: #FFD166;
+        color: #000;
+        box-shadow: 0 0 25px rgba(255,209,102,.6);
         }
 
+
+        .start-btn,
+        .start-btn *,
+        .course-card:hover .start-btn,
+        .course-card:hover .start-btn * {
+          color: #000;
+          }
+          
         .btn-arrow {
           transition: transform 0.3s ease;
         }

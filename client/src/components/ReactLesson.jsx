@@ -230,7 +230,7 @@ const ReactLesson = () => {
         .header-icon {
           font-size: 3.5rem;
           color: #61dafb;
-          filter: drop-shadow(0 0 12px rgba(97, 218, 251, 0.8));
+          filter: drop-shadow(0 0 12px rgba(97, 218, 251, 0.9));
           animation: spin 10s linear infinite, float 3s ease-in-out infinite;
         }
 
@@ -421,6 +421,14 @@ const ReactLesson = () => {
           font-size: 0.8rem;
           font-weight: 500;
         }
+
+        
+        .start-btn,
+        .start-btn *,
+        .course-card:hover .start-btn,
+        .course-card:hover .start-btn * {
+          color: #08173d;
+          }
 
         .course-title {
           color: white;

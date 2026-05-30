@@ -287,7 +287,7 @@ const OOPLesson = () => {
 
         .progress-percent {
           font-weight: bold;
-          color: #e17055;
+          color: #e67e5f;
         }
 
         .progress-bar {
@@ -451,6 +451,7 @@ const OOPLesson = () => {
           gap: 8px;
           padding: 10px 20px;
           background: linear-gradient(90deg,#f4a261,#e67e5f);
+          box-shadow: 0 0 15px rgba(255, 92, 122, 0.4);
           border: none;
           border-radius: 8px;
           color: white;
@@ -461,10 +462,10 @@ const OOPLesson = () => {
           justify-content: center;
         }
 
-        .course-card:hover .start-btn {
-          background: #d63031;
-          gap: 12px;
-        }
+.course-card:hover .start-btn {
+    background: linear-gradient(90deg,#F87171,#FF5C7A);
+    box-shadow: 0 0 25px rgba(255,92,122,.6);
+}
 
         .btn-arrow {
           transition: transform 0.3s ease;

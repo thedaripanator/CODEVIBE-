@@ -208,8 +208,8 @@ const CssLesson = () => {
 
         .header-icon {
           font-size: 3.5rem;
-            color: #c084fc;
-  filter: drop-shadow(0 0 4px #c084fc);
+          color: #08173D;
+          filter: drop-shadow(0 0 10px #ffffff);
           animation: float 3s ease-in-out infinite;
         }
 
@@ -265,7 +265,7 @@ const CssLesson = () => {
 
         .progress-percent {
           font-weight: bold;
-          color: #2965f1;
+          color: #4CC9F0;
         }
 
         .progress-bar {
@@ -276,7 +276,7 @@ const CssLesson = () => {
         }
 
         .progress-fill {
-          background: linear-gradient( 90deg, #c084fc, #ec4899);
+          background: linear-gradient(90deg,#08173D,#162456);
           height: 100%;
           border-radius: 10px;
           transition: width 0.5s ease;
@@ -336,10 +336,10 @@ const CssLesson = () => {
           height: 100%;
         }
 
-        .course-card:hover {
-          background: rgba(255, 255, 255, 0.08);
-          border-color: rgba(41, 101, 241, 0.3);
-          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        .course-card:hover .start-btn {
+          background: linear-gradient(90deg,#08173D,#162456);
+          box-shadow: 0 0 25px rgba(76, 201, 240, 0.6);
+          transform: translateY(-2px);
         }
 
         .badge-container {
@@ -422,7 +422,8 @@ const CssLesson = () => {
           align-items: center;
           gap: 8px;
           padding: 10px 20px;
-          background: linear-gradient(90deg,#c084fc,#ec4899);
+          background: linear-gradient(90deg,#08173D,#162456);
+          box-shadow: 0 0 15px rgba(76, 201, 240, 0.4);
           border: none;
           border-radius: 8px;
           color: white;

@@ -170,8 +170,8 @@ const HtmlLesson = () => {
 
         .header-icon {
           font-size: 3.5rem;
-           color: #FF6B81;
-          filter: drop-shadow(0 0 10px #FF6B81);
+          color: #EF4444;
+          filter: drop-shadow(0 0 10px rgba(255,92,122,.9));
           animation: float 3s ease-in-out infinite;
         }
 
@@ -238,7 +238,7 @@ const HtmlLesson = () => {
 
         .progress-percent {
           font-weight: bold;
-          color: #ff4d4d;
+          color: #FF5C7A;
         }
 
         .progress-bar {
@@ -249,7 +249,7 @@ const HtmlLesson = () => {
         }
 
         .progress-fill {
-          background: linear-gradient(90deg, #FF6B81, #EC4899);
+          background: linear-gradient(90deg, #EF4444, #FF5C7A);
           height: 100%;
           border-radius: 10px;
           transition: width 0.5s ease;
@@ -374,7 +374,8 @@ const HtmlLesson = () => {
           align-items: center;
           gap: 8px;
           padding: 10px 20px;
-            background: linear-gradient(90deg, #FF6B81, #EC4899);
+          background: linear-gradient(90deg,#EF4444,#FF5C7A);
+          box-shadow: 0 0 15px rgba(255,92,122,.4);
           border: none;
           border-radius: 8px;
           color: white;
@@ -386,8 +387,8 @@ const HtmlLesson = () => {
         }
 
         .course-card:hover .start-btn {
-          background: #ff3333;
-          gap: 12px;
+          background: linear-gradient(90deg,#EF4444,#FF5C7A);
+          box-shadow: 0 0 25px rgba(255,92,122,.6);
         }
 
         .btn-arrow {
