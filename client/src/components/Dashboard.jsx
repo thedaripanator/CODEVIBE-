@@ -693,12 +693,36 @@ const Dashboard = () => {
   const metrics = useMemo(() => {
     const stats = analytics?.stats || {};
     return [
-      { label: 'Lessons Completed', value: formatNumber(stats.lessonsCompleted), icon: <BookOpen /> },
-      { label: 'Subjects Active',   value: formatNumber(analytics?.subjects.length || 0), icon: <LayoutDashboard /> },
-      { label: 'Accuracy',          value: `${stats.averageScore || 0}%`, icon: <Sparkles /> },
-      { label: 'Total Points',      value: formatNumber(stats.totalPoints), icon: <Wand2 /> },
-      { label: '🔥 Streak (days)',  value: formatNumber(stats.streak), icon: <Star /> },
-      { label: '🏆 Best Streak',   value: formatNumber(stats.longestStreak), icon: <UserCircle /> },
+      {
+        label: "Lessons Completed",
+        value: formatNumber(stats.lessonsCompleted),
+        icon: <BookOpen />,
+      },
+      {
+        label: "Subjects Active",
+        value: formatNumber(analytics?.subjects?.length || 0),
+        icon: <LayoutDashboard />,
+      },
+      {
+        label: "Accuracy",
+        value: `${stats.averageScore || 0}%`,
+        icon: <Sparkles />,
+      },
+      {
+        label: "Total Points",
+        value: formatNumber(stats.totalPoints),
+        icon: <Wand2 />,
+      },
+      {
+        label: "Learning Streak",
+        value: formatNumber(stats.streak),
+        icon: <UserCircle />,
+      },
+      {
+        label: "Longest Streak",
+        value: formatNumber(analytics?.subjects?.length || 0),
+        icon: <Star />,
+      },
     ];
   }, [analytics]);
 
@@ -853,8 +877,12 @@ const Dashboard = () => {
                 </div>
                 <div className="profile-details-row">
                   <div>
-                    <span>Streak</span>
+                    <span>Current Streak</span>
                     <strong>{formatNumber(analytics?.stats?.streak)}</strong>
+                  </div>
+                  <div>
+                    <span>Longest Streak</span>
+                    <strong>{formatNumber(analytics?.stats?.longestStreak || 0)}</strong>
                   </div>
                   <div className="profile-clock">
                     <span>Clock</span>
