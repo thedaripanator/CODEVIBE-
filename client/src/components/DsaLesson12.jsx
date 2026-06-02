@@ -257,17 +257,6 @@ console.log("Welcome to DSA");`}
   >
     ← Previous Lesson
   </button>
- <button
-    onClick={() => navigate('/DSALesson13')}
-    style={{
-      padding: "10px 20px",
-      borderRadius: "8px",
-      border: "none",
-      cursor: "pointer"
-    }}
-  >
-    Next Lesson →
-  </button>
  
 </div>
     </div>
