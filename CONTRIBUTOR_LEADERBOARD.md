@@ -27,7 +27,7 @@ Last updated: 2026-06-03
 | 11 | [@DebasmitaBose0](https://github.com/DebasmitaBose0) | 80 | 0 | 0 | 16 |
 | 12 | [@StarDustNova-57](https://github.com/StarDustNova-57) | 75 | 5 | 4 | 5 |
 | 13 | [@divyagsharma2006-blip](https://github.com/divyagsharma2006-blip) | 65 | 5 | 4 | 3 |
-| 14 | [@vasheekhan](https://github.com/vasheekhan) | 60 | 5 | 3 | 4 |
+| 14 | [@vasheekhan](https://github.com/vasheekhan) | 65 | 5 | 3 | 5 |
 | 15 | [@codedbydollys10](https://github.com/codedbydollys10) | 51 | 13 | 2 | 1 |
 | 16 | [@Smrithi-krishna](https://github.com/Smrithi-krishna) | 51 | 8 | 2 | 3 |
 | 17 | [@jagrati7305](https://github.com/jagrati7305) | 50 | 5 | 3 | 2 |
