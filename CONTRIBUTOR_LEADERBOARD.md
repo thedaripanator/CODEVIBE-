@@ -2,7 +2,7 @@
 
 This leaderboard is generated automatically for `JiyaBatra/CODEVIBE-` by GitHub Actions.
 
-Last updated: 2026-06-05
+Last updated: 2026-06-06
 
 ## Scoring
 
@@ -28,23 +28,23 @@ Last updated: 2026-06-05
 | 12 | [@StarDustNova-57](https://github.com/StarDustNova-57) | 75 | 5 | 4 | 5 |
 | 13 | [@Siddh2024](https://github.com/Siddh2024) | 69 | 2 | 1 | 11 |
 | 14 | [@divyagsharma2006-blip](https://github.com/divyagsharma2006-blip) | 65 | 5 | 4 | 3 |
-| 15 | [@vasheekhan](https://github.com/vasheekhan) | 65 | 5 | 3 | 5 |
-| 16 | [@codedbydollys10](https://github.com/codedbydollys10) | 51 | 13 | 2 | 1 |
-| 17 | [@Smrithi-krishna](https://github.com/Smrithi-krishna) | 51 | 8 | 2 | 3 |
-| 18 | [@jagrati7305](https://github.com/jagrati7305) | 50 | 5 | 3 | 2 |
-| 19 | [@Haritha-054](https://github.com/Haritha-054) | 49 | 2 | 2 | 5 |
-| 20 | [@anshul23102](https://github.com/anshul23102) | 47 | 1 | 1 | 7 |
-| 21 | [@riteshpatil9686-lgtm](https://github.com/riteshpatil9686-lgtm) | 47 | 11 | 2 | 1 |
-| 22 | [@ArshiBansal](https://github.com/ArshiBansal) | 45 | 5 | 2 | 3 |
-| 23 | [@theblag](https://github.com/theblag) | 44 | 2 | 2 | 4 |
-| 24 | [@YashvardhanJani](https://github.com/YashvardhanJani) | 42 | 6 | 2 | 2 |
-| 25 | [@shyam-medh](https://github.com/shyam-medh) | 41 | 13 | 1 | 1 |
-| 26 | [@advikdivekar](https://github.com/advikdivekar) | 40 | 5 | 3 | 0 |
-| 27 | [@NarraMounika](https://github.com/NarraMounika) | 37 | 1 | 1 | 5 |
-| 28 | [@sashatakpere](https://github.com/sashatakpere) | 36 | 3 | 2 | 2 |
-| 29 | [@suryagkp2007-cmyk](https://github.com/suryagkp2007-cmyk) | 36 | 3 | 2 | 2 |
-| 30 | [@Tech4Aditya](https://github.com/Tech4Aditya) | 36 | 3 | 2 | 2 |
-| 31 | [@shivani11jadhav](https://github.com/shivani11jadhav) | 35 | 0 | 2 | 3 |
+| 15 | [@shivani11jadhav](https://github.com/shivani11jadhav) | 65 | 0 | 2 | 9 |
+| 16 | [@vasheekhan](https://github.com/vasheekhan) | 65 | 5 | 3 | 5 |
+| 17 | [@codedbydollys10](https://github.com/codedbydollys10) | 51 | 13 | 2 | 1 |
+| 18 | [@Smrithi-krishna](https://github.com/Smrithi-krishna) | 51 | 8 | 2 | 3 |
+| 19 | [@jagrati7305](https://github.com/jagrati7305) | 50 | 5 | 3 | 2 |
+| 20 | [@Haritha-054](https://github.com/Haritha-054) | 49 | 2 | 2 | 5 |
+| 21 | [@anshul23102](https://github.com/anshul23102) | 47 | 1 | 1 | 7 |
+| 22 | [@riteshpatil9686-lgtm](https://github.com/riteshpatil9686-lgtm) | 47 | 11 | 2 | 1 |
+| 23 | [@ArshiBansal](https://github.com/ArshiBansal) | 45 | 5 | 2 | 3 |
+| 24 | [@theblag](https://github.com/theblag) | 44 | 2 | 2 | 4 |
+| 25 | [@YashvardhanJani](https://github.com/YashvardhanJani) | 42 | 6 | 2 | 2 |
+| 26 | [@shyam-medh](https://github.com/shyam-medh) | 41 | 13 | 1 | 1 |
+| 27 | [@advikdivekar](https://github.com/advikdivekar) | 40 | 5 | 3 | 0 |
+| 28 | [@NarraMounika](https://github.com/NarraMounika) | 37 | 1 | 1 | 5 |
+| 29 | [@sashatakpere](https://github.com/sashatakpere) | 36 | 3 | 2 | 2 |
+| 30 | [@suryagkp2007-cmyk](https://github.com/suryagkp2007-cmyk) | 36 | 3 | 2 | 2 |
+| 31 | [@Tech4Aditya](https://github.com/Tech4Aditya) | 36 | 3 | 2 | 2 |
 | 32 | [@alenalex-009](https://github.com/alenalex-009) | 34 | 2 | 2 | 2 |
 | 33 | [@pragya0129](https://github.com/pragya0129) | 34 | 2 | 2 | 2 |
 | 34 | [@RehanAhmad25](https://github.com/RehanAhmad25) | 34 | 2 | 2 | 2 |
