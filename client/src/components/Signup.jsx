@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate, useLocation } from "react-router-dom";
+import { useAuth } from "../AuthProvider.jsx";
 import API_BASE_URL from "../config/api";
 import registerImage from "../assets/registerImage.png";
 import PasswordField from "./PasswordField";
@@ -10,6 +11,7 @@ import Dropdown from "./common/Dropdown";
 const Signup = () => {
   const navigate = useNavigate();
   const location = useLocation();
+  const { login } = useAuth();
 
   const [formData, setFormData] = useState({
     username: "",
@@ -67,8 +69,11 @@ const Signup = () => {
       if (data.success) {
         setResponseMsg(data.message || "Account created successfully 🎉");
 
+        // Authenticate the user automatically after successful registration
+        login(data.user, data.token);
+
         setTimeout(() => {
-          navigate("/login", { state: location.state });
+          navigate("/dashboard", { state: location.state });
         }, 1200);
       } else {
         // backend rejected but 200 OK case
