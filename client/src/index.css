@@ -90,6 +90,7 @@ header::before,
     top: 0;
     left: 0;
     max-width: 100%;
+    color: white;
   }
 }
 
@@ -147,6 +148,7 @@ header img:hover {
   grid-column: 3;
   grid-row: 1;
   justify-content: space-between;
+  color: white;
   background-color: linear-gradient(
     135deg,
     #0a0e27 0%,
@@ -158,6 +160,7 @@ header img:hover {
 .header-navlink {
   display: flex;
   gap: 10px;
+  color: white;
 }
 
 .nav-link {
@@ -296,7 +299,42 @@ header img:hover {
 .nav-link span {
   font-weight: 600;
 }
+@media (max-width: 768px) {
+  .mobile-nav {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: 280px !important;
+    height: 100vh !important;
+    background: #0a0e27 !important;
+    z-index: 999999 !important;
+    padding-top: 80px !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+.mobile-nav {
+  right: 0 !important;
+}
+  .mobile-nav .nav-link {
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: flex !important;
+    padding: 14px 20px !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+  }
 
+  .mobile-nav .nav-link span {
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+  }
+
+  .mobile-nav .nav-icon {
+    color: #fff !important;
+  }
+}
 @keyframes float {
   0%,
   100% {
@@ -322,8 +360,11 @@ header h1 {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   animation: titlePulse 3s ease-in-out infinite;
+  color: white;
 }
-
+.nav-link {
+  color: white;
+}
 @keyframes titlePulse {
   0%,
   100% {

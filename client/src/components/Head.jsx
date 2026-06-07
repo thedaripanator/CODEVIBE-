@@ -224,7 +224,7 @@ useEffect(() => {
           <div className="header-navlink">
 
             {user ? (
-            <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '16px' , color: 'white'}}>
               <StreakCounter />
               <button
               type="button"
