@@ -101,9 +101,6 @@ const tryStartServer = (port, attempt = 1) => {
       );
     }
   });
-};
-
-startServer();
 
   server.once("error", (err) => {
     if (err.code === "EADDRINUSE" && attempt < MAX_PORT_ATTEMPTS) {
@@ -121,6 +118,7 @@ startServer();
     } else {
       console.error("❌ HTTP server error:", err);
     }
+
     process.exit(1);
   });
 };
