@@ -2,11 +2,10 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
+dotenv.config();
 const routes = require("./routes/index");
 const passport = require("passport");
 require("./config/passport");
-
-dotenv.config();
 
 const backend = express();
 backend.set("trust proxy", 1);
