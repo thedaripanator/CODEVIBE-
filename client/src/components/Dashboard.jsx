@@ -691,9 +691,7 @@ const Dashboard = () => {
         cancelToken: source.token,
         headers: { Authorization: `Bearer ${token}` },
       })
-      .then((response) => {
-        setAnalytics(response.data);
-      })
+.then((response) => {setAnalytics(response.data);})
       .catch((err) => {
         if (!axios.isCancel(err)) {
           setError(err.response?.data?.message || "Failed to load dashboard data.");
@@ -802,7 +800,6 @@ const Dashboard = () => {
       setSaving(false);
     }
   };
-
   const metrics = useMemo(() => {
     const stats = analytics?.stats || {};
     return [
@@ -843,7 +840,10 @@ const Dashboard = () => {
     return analytics?.subjects?.map((subject) => {
       const completed = subject.completedLessons || 0;
       const total = subject.totalLessons || subject.completedLessons || 0;
-      const completionValue = Math.max(0, completed);
+      const completionValue =
+  total > 0
+    ? Math.round((completed / total) * 100)
+    : 0;
 
       return {
         title: subject.subject,
@@ -918,7 +918,6 @@ const Dashboard = () => {
       spanLabel: formatGrowthSpan(adjustedPoints),
     };
   }, [analytics]);
-
   if (!user) {
     return (
       <section className="dashboard-shell">
@@ -1109,7 +1108,6 @@ const Dashboard = () => {
                 </div>
               )}
             </aside>
-
             <main className="dashboard-main">
               <div className="stats-grid">
                 {metrics.map((item) => (
@@ -1308,7 +1306,7 @@ const Dashboard = () => {
                   <div className="section-header">
                     <div>
                       <p className="section-overline">Completion map</p>
-                      <h2>✅ Solved vs unsolved</h2>
+                      <h2>Solved vs unsolved</h2>
                     </div>
                   </div>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', marginTop: '16px' }}>
