@@ -13,6 +13,7 @@ const analyticsRoutes = require('./analytics');
 const mistakesRoutes = require('./mistakesRoutes');
 const examRoutes = require('./examRoutes');
 const notesRoutes = require('./notesRoutes');
+const bookmarkRoutes = require('./bookmarkRoutes');
 
 router.use('/feedback', feedbackRoutes);
 router.use('/progress', progressRoutes);
@@ -26,5 +27,6 @@ router.use('/contributors', contributorRoutes);
 router.use('/mistakes', mistakesRoutes);
 router.use('/exam', examRoutes);
 router.use('/notes', notesRoutes);
+router.use('/bookmarks', bookmarkRoutes);
 
 module.exports = router;

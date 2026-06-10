@@ -2,11 +2,24 @@ import React from "react";
 import { Outlet, useLocation, Navigate } from "react-router-dom";
 import { useAuth } from "../AuthProvider";
 import NotesPanel from "./NotesPanel";
+import BookmarkButton from "./BookmarkButton";
+import { lessonGroups } from "../config/lessonRoutes";
 
 const LESSON_PATH_REGEX = /^\/(?:Html|Css|Js|C|Dbms|Dsa|Express|Mongo|Node|OOP|React)Lesson\d*$/i;
 
+const lessonPathToIdMap = new Map();
+lessonGroups.forEach((group) => {
+  group.lessons.forEach((lesson) => {
+    lessonPathToIdMap.set(lesson.path, lesson.lessonId);
+  });
+});
+
 function extractLessonId(pathname) {
   return pathname.replace(/^\//, "");
+}
+
+function mapPathToLessonId(pathname) {
+  return lessonPathToIdMap.get(pathname) || pathname.replace(/^\//, "");
 }
 
 const LessonLayout = () => {
@@ -21,7 +34,14 @@ const LessonLayout = () => {
   return (
     <>
       <Outlet />
-      {isLessonPage && <NotesPanel lessonId={extractLessonId(location.pathname)} lessonTitle={location.pathname.replace("/", "")} />}
+      {isLessonPage && (
+        <>
+          <NotesPanel lessonId={extractLessonId(location.pathname)} lessonTitle={location.pathname.replace("/", "")} />
+          <div className="lesson-bookmark-fab">
+            <BookmarkButton lessonId={mapPathToLessonId(location.pathname)} size={20} />
+          </div>
+        </>
+      )}
     </>
   );
 };
