@@ -22,6 +22,7 @@ import MyMistakesDashboard from "./MyMistakesDashboard";
 import BookmarksWidget from "./BookmarksWidget";
 import DailyQuests from "./DailyQuests.jsx";
 import "./Dashboard.css";
+import { Upload } from 'lucide-react';
 
 const formatNumber = (value) => {
   if (value === undefined || value === null) return "—";
@@ -955,7 +956,7 @@ const Dashboard = () => {
                   alt="Profile avatar"
                 />
                 <label className="avatar-upload-button">
-                  Upload
+                  <Upload size={15}/>
                   <input
                     type="file"
                     accept="image/*"
