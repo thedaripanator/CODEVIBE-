@@ -14,6 +14,7 @@ const mistakesRoutes = require('./mistakesRoutes');
 const examRoutes = require('./examRoutes');
 const notesRoutes = require('./notesRoutes');
 const bookmarkRoutes = require('./bookmarkRoutes');
+const notificationRoutes = require('./notificationRoutes');
 
 router.use('/feedback', feedbackRoutes);
 router.use('/progress', progressRoutes);
@@ -28,5 +29,6 @@ router.use('/mistakes', mistakesRoutes);
 router.use('/exam', examRoutes);
 router.use('/notes', notesRoutes);
 router.use('/bookmarks', bookmarkRoutes);
+router.use('/notifications', notificationRoutes);
 
 module.exports = router;

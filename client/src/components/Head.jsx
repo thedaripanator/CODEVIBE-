@@ -6,6 +6,7 @@ import { useDebounce } from "../hooks/useDebounce"; // added
 import { FaSignInAlt, FaSignOutAlt, FaUserPlus, FaTachometerAlt, FaGamepad, FaSearch, FaTimes, FaHome, FaQuestionCircle, FaBook, FaEnvelope, FaTrophy } from "react-icons/fa";
 import logo from "../assets/favicon.png";
 import StreakCounter from "./StreakCounter.jsx";
+import NotificationBell from "./common/NotificationBell.jsx";
 import { FaChevronDown, FaTasks, FaLightbulb } from "react-icons/fa";
 
 const COURSES = [
@@ -225,6 +226,7 @@ useEffect(() => {
 
             {user ? (
             <div style={{ display: 'flex', alignItems: 'center', gap: '16px' , color: 'white'}}>
+              <NotificationBell />
               <StreakCounter />
               <button
               type="button"
