@@ -390,6 +390,16 @@ body::-webkit-scrollbar,
   align-items: flex-end;
 }
 
+.last-updated {
+  display: none;
+}
+
+@media (min-width: 721px) {
+  .last-updated {
+    display: inline;
+  }
+}
+
 .section-overline {
   margin: 0 0 0.35rem;
   color: var(--accent-soft);
