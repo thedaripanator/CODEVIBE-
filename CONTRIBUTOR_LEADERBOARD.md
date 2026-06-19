@@ -2,7 +2,7 @@
 
 This leaderboard is generated automatically for `thedaripanator/CODEVIBE-` by GitHub Actions.
 
-Last updated: 2026-06-18
+Last updated: 2026-06-19
 
 ## Scoring
 
@@ -86,29 +86,28 @@ Last updated: 2026-06-18
 | 70 | [@itssagarK](https://github.com/itssagarK) | 2 | 1 | 0 | 0 |
 | 71 | [@JANHAVI40](https://github.com/JANHAVI40) | 2 | 1 | 0 | 0 |
 | 72 | [@Kartikey-Pathak](https://github.com/Kartikey-Pathak) | 2 | 1 | 0 | 0 |
-| 73 | [@KGFCH2](https://github.com/KGFCH2) | 2 | 1 | 0 | 0 |
-| 74 | [@manassanjaymishra24](https://github.com/manassanjaymishra24) | 2 | 1 | 0 | 0 |
-| 75 | [@MD-Mushfiqur123](https://github.com/MD-Mushfiqur123) | 2 | 1 | 0 | 0 |
-| 76 | [@Mudita-Singh](https://github.com/Mudita-Singh) | 2 | 1 | 0 | 0 |
-| 77 | [@Nandhana73](https://github.com/Nandhana73) | 2 | 1 | 0 | 0 |
-| 78 | [@nandinisri1912](https://github.com/nandinisri1912) | 2 | 1 | 0 | 0 |
-| 79 | [@NarraMounika](https://github.com/NarraMounika) | 2 | 1 | 0 | 0 |
-| 80 | [@Neelr1912](https://github.com/Neelr1912) | 2 | 1 | 0 | 0 |
-| 81 | [@nishitha011](https://github.com/nishitha011) | 2 | 1 | 0 | 0 |
-| 82 | [@PadmakarBagade](https://github.com/PadmakarBagade) | 2 | 1 | 0 | 0 |
-| 83 | [@pericharlabindhumadhavi-data](https://github.com/pericharlabindhumadhavi-data) | 2 | 1 | 0 | 0 |
-| 84 | [@PeyalaAnandanaidu](https://github.com/PeyalaAnandanaidu) | 2 | 1 | 0 | 0 |
-| 85 | [@pracheyyy](https://github.com/pracheyyy) | 2 | 1 | 0 | 0 |
-| 86 | [@PradeepTech-hub](https://github.com/PradeepTech-hub) | 2 | 1 | 0 | 0 |
-| 87 | [@priyansh13-c](https://github.com/priyansh13-c) | 2 | 1 | 0 | 0 |
-| 88 | [@ravishankar-03](https://github.com/ravishankar-03) | 2 | 1 | 0 | 0 |
-| 89 | [@reshukushwah28](https://github.com/reshukushwah28) | 2 | 1 | 0 | 0 |
-| 90 | [@Sakshisen12](https://github.com/Sakshisen12) | 2 | 1 | 0 | 0 |
-| 91 | [@Sharanyaaa08](https://github.com/Sharanyaaa08) | 2 | 1 | 0 | 0 |
-| 92 | [@Shashankpatilrcr](https://github.com/Shashankpatilrcr) | 2 | 1 | 0 | 0 |
-| 93 | [@shiwans-k-yadav](https://github.com/shiwans-k-yadav) | 2 | 1 | 0 | 0 |
-| 94 | [@shubh22-u](https://github.com/shubh22-u) | 2 | 1 | 0 | 0 |
-| 95 | [@suhanimaurya05](https://github.com/suhanimaurya05) | 2 | 1 | 0 | 0 |
-| 96 | [@tejaswibellapu](https://github.com/tejaswibellapu) | 2 | 1 | 0 | 0 |
-| 97 | [@twinkle0tech](https://github.com/twinkle0tech) | 2 | 1 | 0 | 0 |
-| 98 | [@Yogender-verma](https://github.com/Yogender-verma) | 2 | 1 | 0 | 0 |
+| 73 | [@manassanjaymishra24](https://github.com/manassanjaymishra24) | 2 | 1 | 0 | 0 |
+| 74 | [@MD-Mushfiqur123](https://github.com/MD-Mushfiqur123) | 2 | 1 | 0 | 0 |
+| 75 | [@Mudita-Singh](https://github.com/Mudita-Singh) | 2 | 1 | 0 | 0 |
+| 76 | [@Nandhana73](https://github.com/Nandhana73) | 2 | 1 | 0 | 0 |
+| 77 | [@nandinisri1912](https://github.com/nandinisri1912) | 2 | 1 | 0 | 0 |
+| 78 | [@NarraMounika](https://github.com/NarraMounika) | 2 | 1 | 0 | 0 |
+| 79 | [@Neelr1912](https://github.com/Neelr1912) | 2 | 1 | 0 | 0 |
+| 80 | [@nishitha011](https://github.com/nishitha011) | 2 | 1 | 0 | 0 |
+| 81 | [@PadmakarBagade](https://github.com/PadmakarBagade) | 2 | 1 | 0 | 0 |
+| 82 | [@pericharlabindhumadhavi-data](https://github.com/pericharlabindhumadhavi-data) | 2 | 1 | 0 | 0 |
+| 83 | [@PeyalaAnandanaidu](https://github.com/PeyalaAnandanaidu) | 2 | 1 | 0 | 0 |
+| 84 | [@pracheyyy](https://github.com/pracheyyy) | 2 | 1 | 0 | 0 |
+| 85 | [@PradeepTech-hub](https://github.com/PradeepTech-hub) | 2 | 1 | 0 | 0 |
+| 86 | [@priyansh13-c](https://github.com/priyansh13-c) | 2 | 1 | 0 | 0 |
+| 87 | [@ravishankar-03](https://github.com/ravishankar-03) | 2 | 1 | 0 | 0 |
+| 88 | [@reshukushwah28](https://github.com/reshukushwah28) | 2 | 1 | 0 | 0 |
+| 89 | [@Sakshisen12](https://github.com/Sakshisen12) | 2 | 1 | 0 | 0 |
+| 90 | [@Sharanyaaa08](https://github.com/Sharanyaaa08) | 2 | 1 | 0 | 0 |
+| 91 | [@Shashankpatilrcr](https://github.com/Shashankpatilrcr) | 2 | 1 | 0 | 0 |
+| 92 | [@shiwans-k-yadav](https://github.com/shiwans-k-yadav) | 2 | 1 | 0 | 0 |
+| 93 | [@shubh22-u](https://github.com/shubh22-u) | 2 | 1 | 0 | 0 |
+| 94 | [@suhanimaurya05](https://github.com/suhanimaurya05) | 2 | 1 | 0 | 0 |
+| 95 | [@tejaswibellapu](https://github.com/tejaswibellapu) | 2 | 1 | 0 | 0 |
+| 96 | [@twinkle0tech](https://github.com/twinkle0tech) | 2 | 1 | 0 | 0 |
+| 97 | [@Yogender-verma](https://github.com/Yogender-verma) | 2 | 1 | 0 | 0 |
