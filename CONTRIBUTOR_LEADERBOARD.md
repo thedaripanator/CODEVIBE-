@@ -2,7 +2,7 @@
 
 This leaderboard is generated automatically for `thedaripanator/CODEVIBE-` by GitHub Actions.
 
-Last updated: 2026-08-18
+Last updated: 2026-08-19
 
 ## Scoring
 
@@ -29,7 +29,7 @@ Last updated: 2026-08-18
 | 13 | [@tazmeen24](https://github.com/tazmeen24) | 14 | 7 | 0 | 0 |
 | 14 | [@indresh404](https://github.com/indresh404) | 12 | 6 | 0 | 0 |
 | 15 | [@Mahi-19-design](https://github.com/Mahi-19-design) | 12 | 6 | 0 | 0 |
-| 16 | [@naredlaniharika](https://github.com/naredlaniharika) | 12 | 6 | 0 | 0 |
+| 16 | [@niharika270608](https://github.com/niharika270608) | 12 | 6 | 0 | 0 |
 | 17 | [@simran-nitj](https://github.com/simran-nitj) | 12 | 6 | 0 | 0 |
 | 18 | [@YashvardhanJani](https://github.com/YashvardhanJani) | 12 | 6 | 0 | 0 |
 | 19 | [@advikdivekar](https://github.com/advikdivekar) | 10 | 5 | 0 | 0 |
